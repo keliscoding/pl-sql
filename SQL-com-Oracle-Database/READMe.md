@@ -89,3 +89,11 @@ CREATE TABLE TB_CLIENTES (
 	PRIMEIRA_COMPRA NUMBER(1)
 );
 ```
+## Inserção de dados nas tabelas
+
+```
+INSERT INTO TB_VENDEDORES (
+	MATRICULA, NOME, DATA_ADMISSAO, PERCENTUAL_COMISSAO 
+) VALUES ('00233', 'Joao Geraldo da Fonseca', '01-DEC-2015', 0.1);
+
+```
