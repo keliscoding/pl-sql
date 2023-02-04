@@ -97,3 +97,15 @@ INSERT INTO TB_VENDEDORES (
 ) VALUES ('00233', 'Joao Geraldo da Fonseca', '01-DEC-2015', 0.1);
 
 ```
+
+## Alterar dado de uma tabela
+
+```
+UPDATE TB_PRODUTOS SET EMBALAGEM = 'Lata' WHERE PRODUTO = '1037797';
+```
+
+Para alterar mais de um dado em um único comando:
+```
+UPDATE TB_PRODUTOS SET NOME = 'Clean - 350 ml - Laranja', TAMANHO = '350 ml', 
+PRECO_LISTA = 5.50 WHERE PRODUTO = '1037797';
+```
