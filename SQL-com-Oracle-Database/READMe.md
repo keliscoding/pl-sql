@@ -133,3 +133,9 @@ VALUES
 ('00333434577', 'João da Silva', 'Rua Projetada número 10', NULL, 'VILA ROMAN',
 'TRÊS RIOS', 'RJ', '22222222', **TO_DATE('12/10/1965', 'DD/MM/YYYY')**, 56, 'M', 100000, 2000, 0);
 ```
+
+## Sobre o comando select
+
+### Alias
+ ```SELECT PRODUTO AS "CODIGO DO PRODUTO", NOME FROM TB_PRODUTOS tp ;```  
+
