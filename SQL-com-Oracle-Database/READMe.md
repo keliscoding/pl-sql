@@ -109,3 +109,9 @@ Para alterar mais de um dado em um único comando:
 UPDATE TB_PRODUTOS SET NOME = 'Clean - 350 ml - Laranja', TAMANHO = '350 ml', 
 PRECO_LISTA = 5.50 WHERE PRODUTO = '1037797';
 ```
+
+## Deletar um dado de uma tabela
+
+```
+DELETE FROM TB_PRODUTOS tp WHERE PRODUTO = '1037797';
+```
